@@ -1,7 +1,9 @@
 @media only screen and (max-width: 1038px) {
     nav ul {
         flex-direction: column;
-        padding-left: 0rem;
+       
+        padding-top: 5rem;
+        margin-left: -6rem;
     }
      nav {
         flex-direction: column;
@@ -46,7 +48,7 @@
         padding-right: 0;
     }
     .hero-text img {
-        right: 3rem;
+        right: -1rem;
     }
     .hero-text span {
         gap: 1.6rem;
@@ -70,6 +72,7 @@
     }
     .img-side_main-img {
         margin-bottom: 3.5rem;
+        width: 19rem;
     }
     .text-side {
         margin: 0 auto;
@@ -88,5 +91,20 @@
     }
     .project-container{
         padding: 8rem 2rem;
+    }
+    .contact-container{
+        padding: 0px 1rem;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 35px;
+        padding-right: 80px;
+        padding-top: 3px;
+        color: white;
+        gap: 3rem;
+    }
+    .footer-third{
+        display: flex;
     }
 }
